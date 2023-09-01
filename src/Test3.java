@@ -1,11 +1,21 @@
 import java.util.Scanner;
-public class test3 {
+//아잉
+public class Test3 {
     public static  void main(String[]args) {
-        Scanner a = new Scanner(System.in);
-        int b = a.nextInt();
-        int c = 1;
+        Scanner awesome = new Scanner(System.in);
+        /*
+        awesome은 사용자 입력값
+        b는 사용자의 입력값을 정수로 변환
+        c는 밑에 만들때 쓰는놈
+        d는 버퍼
+        f도 버퍼
+        g는 다야모양을 만들기 위해 대칭
+
+         */
+        int b = awesome.nextInt();
+        int c = b;
         int d = 0;
-        int f=1;
+        int f=0;
         int g=b;
         while (b > 0) {
             d = b;
